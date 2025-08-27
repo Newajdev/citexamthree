@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.Container {
+  background-image: linear-gradient(to bottom right, #FF0000, #D501FF);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  color: white;
+  text-align: center;
+}
+
+.ContentBox {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  border: 2px solid #FFFFFF80;
+  background: #FFFFFF45;
+  border-radius: 35px;
+  padding: 104px 67px;
+}
+
+.InputField {
+  width: 420px;
+  padding: 18px 18px 18px;
+  background-color: #FFFFFF45;
+  border: 1px solid #FFFFFF80;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 9px;
+}
+
+.InputField::placeholder {
+  color: white;
+
+}
+
+.InputField:focus-visible {
+  outline: 1px solid #FFFFFF;
+  ;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.Button {
+  background-image: linear-gradient(to bottom right, #2E60BE, #73A2F4);
+  border: none;
+  padding: 15px;
+  border-radius: 32px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Button:hover {
+  background-image: linear-gradient(to top left, #2E60BE, #73A2F4);
+  border: none;
+  padding: 15px;
+  border-radius: 32px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ForgetP {
+  color: #FFFFFF;
+  text-align: right;
+}
+.ForgetP:hover {
+  cursor: pointer;
+}
+
+.divider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #ffffff80;
+  margin: 30px 0px;
+}
+
+.line {
+  width: 200px;
+  height: 0;
+}
+
+.Fb-Icon,
+.Google-Icon {
+  font-size: 30px;
+  color: #1977F3;
+  background-color: white;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+.Social_Icon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Icon:hover {
+  cursor: pointer;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
