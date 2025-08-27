@@ -78,9 +78,10 @@
   color: #FFFFFF;
   text-align: right;
 }
+
 .ForgetP:hover {
   cursor: pointer;
-  
+
 }
 
 .divider {
@@ -121,28 +122,30 @@
 
 }
 
-.NavigationText{
+.NavigationText {
   margin-top: 50px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.719);
   text-align: center;
 }
 
-.Link{
+.Link {
   text-decoration: none;
   color: #FFFFFF;
   font-weight: 600;
 }
-.Link:hover{
+
+.Link:hover {
   cursor: pointer;
   color: #0130ff;
   transition: 0.5s;
 }
-.Password{
+
+.Password {
   position: relative;
 }
 
-.eye{
+.eye {
   position: absolute;
   top: 50%;
   right: 0;
@@ -151,4 +154,18 @@
   font-size: 18px;
   margin-right: 20px;
   margin-top: 3px;
+}
+
+.Warning {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  margin-top: 5px;
+}
+.warningIcon {
+  padding: 5px;
+  background-color: #FFFFFF;
+  color: #FF0000;
+  border-radius: 50px;
 }

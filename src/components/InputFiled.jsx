@@ -1,8 +1,8 @@
 
 
-const InputFiled = ({type, placeHolder}) => {
+const InputFiled = ({type, placeHolder, name}) => {
     return (
-        <input className="InputField" type={type} placeholder={placeHolder} />
+        <input name={name} className="InputField" type={type} placeholder={placeHolder} />
     );
 };
 
